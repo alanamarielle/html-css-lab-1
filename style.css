@@ -1,6 +1,7 @@
 /* resets */
-body, h1, p, ul, a, footer {
+body, h1, p, ul, a, footer, h4 {
     margin: 0;
+    overflow: hidden;
 }
 body {
     background-color: #f9fafc;
@@ -18,7 +19,7 @@ a {
 
 .blackbutton {
     display: block;
-    width: 100%;
+    width: 95%;
     color: #FFF;
     background-color: #000;
     border-radius: 100px;
@@ -28,7 +29,7 @@ a {
 
 .toplinks {
     display: block;
-    margin: 5px;
+    margin: 5px 0px;
 }
 
 .description {
@@ -40,13 +41,19 @@ a {
 .footer {
     position: fixed;
     bottom: 0;
-    height: 25px;
+    height: 30px;
     width: 100%;
     background-color: rgba(247, 193, 162, 0.7);
 }
 .chirpus {
     float: left;
 }
-ul {
+.footer > * {
+    padding: 8px;
+}
+.bottomlinks {
     float: right;
+}
+.bottomlinks > * {
+    padding: 8px;
 }
